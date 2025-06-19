@@ -8,7 +8,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "84s-remote-state"
+    bucket = "hema-remote-state"
     key    = "ec2-module-test"
     region = "us-east-1"
     encrypt        = true
